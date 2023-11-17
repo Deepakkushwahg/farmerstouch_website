@@ -1,0 +1,135 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#header1,
+#header2,
+#item4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.7vw;
+    width: 100%;
+}
+
+#item1,
+#item2,
+#item3 {
+    display: flex;
+    align-items: center;
+}
+
+.column1,
+.column2,
+#login-signup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    color: darkblue;
+    font-size: 1.6vw;
+    font-weight: bolder;
+}
+
+#subtitle,
+#tollNumber {
+    color: red;
+    font-weight: bolder;
+    font-size: 1.05vw;
+}
+
+#circle1 {
+    background-image: url('../Constant/logo.jpg');
+    height: 4vw;
+    width: 4vw;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#circle2 {
+    background-color: white;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 100%;
+}
+
+.column2 {
+    margin-left: 4vw;
+}
+
+#toll {
+    color: darkblue;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+#tollNumber {
+    font-size: 1.5vw;
+}
+
+#flag {
+    background-image: url('../Constant/Flag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 6vw;
+    height: 3.5vw;
+    border: none;
+}
+
+#login-signup {
+    border: none;
+    border-radius: 1vw;
+    color: red;
+    font-weight: bolder;
+    font-size: 0.8vw;
+    height: 2vw;
+}
+
+hr {
+    width: 98%;
+    height: 0.15vw;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.73);
+}
+
+#gmaillogo {
+    background-image: url('../Constant/Gmail-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 5.8vw;
+    height: 3.3vw;
+    border: none;
+}
+
+#header2 {
+    height: 4vw;
+}
+
+#item4 {
+    width: 80%;
+}
+
+.items a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,69 @@
+#feedback-form {
+    margin-top: 0.3vw;
+    display: flex;
+    padding-left: 2.5vw;
+    align-items: center;
+    height: 40vh;
+    background-image: url('../Constant/farm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form {
+    width: 15%;
+    padding: 1vw;
+    height: 80%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.803);
+}
+
+label {
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+
+.inputs input {
+    border: none;
+    border-radius: 1vw;
+    height: 1.5vw;
+    padding-left: 0.5vw;
+    width: 10.8vw;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#feedback {
+    color: green;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+#submit {
+    border: none;
+    border-radius: 1vw;
+    color: white;
+    padding: 0.3vw;
+    width: 7vw;
+    background-color: green;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    box-shadow: 1px -5px 5px rgba(173, 159, 159, 0.363), 1px 5px 5px rgba(173, 159, 159, 0.363);
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+#submit:active {
+    box-shadow: none;
+}

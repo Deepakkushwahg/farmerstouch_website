@@ -1,0 +1,134 @@
+footer {
+    height: 40vh;
+    background-color: rgb(31, 31, 73);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vw;
+    height: 22.5vh;
+    width: 65vw;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-between;
+    height: 11.5vh;
+    align-items: center;
+    width: 70vw;
+}
+
+#box3 {
+    width: 20%;
+    height: 25vh;
+    background-image: url('../Constant/worldmap.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.47);
+}
+
+.boxes span {
+    color: yellow;
+    margin-bottom: -0.5vw;
+    font-size: 1.4vw;
+}
+
+#handle1 {
+    display: flex;
+    margin-top: 1.5vw;
+    justify-content: space-between;
+    width: 9vw;
+    align-items: center;
+}
+
+#handle2 {
+    display: flex;
+    margin-top: 0.8vw;
+    justify-content: space-between;
+    width: 10.5vw;
+}
+
+#facebook {
+    width: 2.1vw;
+    height: 2vw;
+}
+
+#instagram,
+#twitter,
+#youtube {
+    width: 2vw;
+    height: 2vw;
+}
+
+#playstore,
+#appstore {
+    width: 5vw;
+    height: 1.8vw;
+}
+
+#joinUs {
+    background-image: url('../Constant/joinUs.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2.3vw;
+    border: none;
+}
+
+#joinUs:hover {
+    cursor: pointer;
+}
+
+#becomeASeller {
+    color: rgb(10, 85, 10);
+    font-size: 1vw;
+    background-color: rgba(172, 255, 47, 0.623);
+    font-weight: bolder;
+    width: 14vw;
+    height: 2vw;
+    border: none;
+    border-radius: 3vw;
+}
+
+#becomeASeller:hover {
+    cursor: pointer;
+}
+
+#joinUs,
+#hinditext {
+    width: 11vw;
+}
+
+.box4 {
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#dot {
+    border: none;
+    background-color: red;
+    height: 1vw;
+    margin-right: 0.5vw;
+    width: 1vw;
+    border-radius: 100px;
+}
+
+.box4 span {
+    color: green;
+    font-weight: bolder;
+}

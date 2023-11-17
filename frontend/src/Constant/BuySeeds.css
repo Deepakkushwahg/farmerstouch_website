@@ -1,0 +1,135 @@
+#body3 h1 {
+    color: green;
+}
+
+#body3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+
+#seedItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 70vh;
+}
+
+#seedItems>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seedItems div hr {
+    background-color: rgba(255, 0, 0, 0.351);
+    width: 80%;
+}
+
+.seedNames {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 89%;
+}
+
+#seedimage1 {
+    background-image: url('../Constant/wheat.jpeg');
+}
+
+#seedimage2 {
+    background-image: url('../Constant/sunflower.jpg');
+}
+
+#seedimage3 {
+    background-image: url('../Constant/pumpkin.png');
+}
+
+#seedimage4 {
+    background-image: url('../Constant/flax.jpg');
+}
+
+#seedimage5 {
+    background-image: url('../Constant/poppy.jpg');
+}
+
+#seedimage6 {
+    background-image: url('../Constant/sesame.png');
+}
+
+#seedimage7 {
+    background-image: url('../Constant/peas.png');
+}
+
+#seedimage8 {
+    background-image: url('../Constant/brown-rice.png');
+}
+
+#seedimage9 {
+    background-image: url('../Constant/groundnut.png');
+}
+
+#seedimage10 {
+    background-image: url('../Constant/maize.png');
+}
+
+.imageAndNames div {
+    border: 1px solid rgba(255, 0, 0, 0.53);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100vw;
+}
+
+.imageAndNames {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.imageAndNames span {
+    font-size: 1.2vw;
+    font-weight: bolder;
+    margin-left: 1vw;
+}
+
+#buybtn1,
+#buybtn2,
+#buybtn3,
+#buybtn4,
+#buybtn5,
+#buybtn6,
+#buybtn7,
+#buybtn8,
+#buybtn9,
+#buybtn10 {
+    border: none;
+    border-radius: 3vw;
+    background-color: red;
+    color: white;
+    font-size: 1.4vw;
+    width: 6vw;
+    height: 2.5vw;
+}
+
+#buybtn1:hover,
+#buybtn2:hover,
+#buybtn3:hover,
+#buybtn4:hover,
+#buybtn5:hover,
+#buybtn6:hover,
+#buybtn7:hover,
+#buybtn8:hover,
+#buybtn9:hover,
+#buybtn10:hover {
+    cursor: pointer;
+}

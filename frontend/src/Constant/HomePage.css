@@ -1,0 +1,44 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#offersBox {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+#container {
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+    height: 40vh;
+    background-color: rgba(31, 31, 118, 0.636);
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    margin-top: 4vw;
+    display: inline-block;
+    background-image: url('../Constant/veg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10px;
+    margin-left: 2vw;
+    transform: translate3d(0, 0, 0);
+    animation: scroll 3s linear infinite;
+}
+
+@keyframes scroll {
+    100% {
+        transform: translateX(-70%);
+    }
+}

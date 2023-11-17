@@ -1,0 +1,17 @@
+#body4 {
+    background-image: url('../Constant/vine-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box9 {
+    height: 20vw;
+    width: 30vw;
+    margin: 1vw 1vw;
+    border: 0.2vw solid gray;
+    background-image: url(../Constant/wheat.jpeg);
+    float: left;
+    border-radius: 1vw;
+}

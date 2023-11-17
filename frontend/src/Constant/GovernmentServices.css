@@ -1,0 +1,97 @@
+#body1 {
+    background-image: linear-gradient(to bottom right, white, wheat);
+}
+
+#box5 {
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box6 {
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box7 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box7 span {
+    font-size: 3vw;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
+}
+
+.leftSidebtns button,
+#topbtn,
+.rightSidebtns button {
+    border: none;
+    border-radius: 1.8vw;
+    font-size: 2vw;
+}
+
+.leftSidebtns button,
+.rightSidebtns button {
+    width: 20vw;
+    height: 3vw;
+}
+
+#topbtn {
+    color: white;
+    background-color: red;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    width: fit-content;
+    height: 3.5vw;
+}
+
+#topbtn:hover {
+    cursor: pointer;
+}
+
+.leftSidebtns button {
+    background-color: greenyellow;
+    color: red;
+    float: left;
+}
+
+.rightSidebtns button {
+    background-color: orange;
+    color: black;
+    float: right;
+}
+
+.rightSidebtns button:hover,
+.leftSidebtns button:hover {
+    cursor: pointer;
+}
+
+#box8 {
+    width: 100%;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4 {
+    width: 12vw;
+    height: 13vw;
+    border: 1px solid black;
+    transform: skewX(10deg);
+}
